@@ -4,7 +4,7 @@ def map_to_negativize(array)
   counter = 0
   while counter < array.size do
   #  DO SOMETHING< PUSH IN THE FINAL_ARRAY THE CURRENT ELEMENT TIMES -1
-    final_array.push.array[]
+    final_array.push(array[counter])
     counter += 1
   end
   final_array
